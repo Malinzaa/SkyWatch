@@ -68,6 +68,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build (BuildContext context) {
+    double w = MediaQuery.of(context).size.width;
+    double h = MediaQuery.of(context).size.height;
     final SettingsViewModel settings = Provider.of<SettingsViewModel>(context);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -77,9 +79,9 @@ class MyApp extends StatelessWidget {
           backgroundColor: Color(0xFFA4DAE0),
           elevation: 0,
           centerTitle: true,
-          toolbarHeight: 80,
+          toolbarHeight: h * 0.08,
           titleTextStyle: TextStyle(
-            fontSize: 28,
+            fontSize: w * 0.06,
             fontFamily: 'Rubik',
             fontWeight: FontWeight.bold,
             color: Colors.black,
