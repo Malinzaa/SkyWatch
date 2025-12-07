@@ -1,0 +1,58 @@
+{
+  "Asia": [
+    "Tokyo",
+    "Seoul",
+    "Beijing",
+    "Shanghai",
+    "Mumbai",
+    "Delhi",
+    "Colombo",
+    "Bangkok",
+    "Singapore",
+    "Jakarta"
+  ],
+  "Europe": [
+    "London",
+    "Paris",
+    "Berlin",
+    "Madrid",
+    "Rome",
+    "Milan",
+    "Amsterdam",
+    "Vienna",
+    "Zurich",
+    "Lisbon"
+  ],
+  "North America": [
+    "New York",
+    "Los Angeles",
+    "Chicago",
+    "Toronto",
+    "Vancouver",
+    "Mexico City",
+    "Houston",
+    "Miami",
+    "San Francisco",
+    "Seattle"
+  ],
+  "South America": [
+    "São Paulo",
+    "Buenos Aires",
+    "Lima",
+    "Bogotá",
+    "Santiago"
+  ],
+  "Africa": [
+    "Cairo",
+    "Lagos",
+    "Johannesburg",
+    "Nairobi",
+    "Casablanca"
+  ],
+  "Oceania": [
+    "Sydney",
+    "Melbourne",
+    "Auckland",
+    "Perth"
+  ]
+}
